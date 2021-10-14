@@ -1,0 +1,540 @@
+body{
+    padding: 0;
+    margin:0;
+    font-family: Raleway;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+.filters-area li:hover{
+    
+    cursor: pointer;
+    background-color: darkgrey;
+}
+.city{
+    margin-left: 30px;
+}
+#header{
+  margin-top: 30px;
+  margin-left: 20px;
+}
+figcaption{
+    margin: 10px;
+}
+.small-font-size{
+    font-size: 10px ;
+    
+}
+
+.logo{
+    width: 130px;
+    height: auto px;
+    margin-left: 20px;
+    
+}
+.menu{
+    float: right;
+    
+}
+.menu li {
+    display: inline;
+    margin: 17px;
+
+}
+.activites{
+    color: black;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+
+}
+.menu a:active{
+    color: blue;
+    border-top: 2px solid blue ;
+    
+}
+.fa-search{
+    /* display: none; */
+    visibility: hidden;
+}
+.search-area {
+    margin-left: 20px;
+}
+.search-area h3{
+    margin-left: 20px;
+}
+.search-text{
+    position: relative;
+    margin-right: -5px; 
+}
+::placeholder{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+
+.fa-map-marker-alt{
+    position: relative;
+    margin-right: -5px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color:#DEEBFF;
+    padding:11px 10px 14px 11px;
+}
+.text{
+    margin-left: -5px;
+    color: black;
+}
+.search-area input{
+    padding: 10px; 
+}
+.fa-search{
+    display: none;
+    /* visibility: hidden; */
+                                                      
+}
+.submit{
+    background-color: blue;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+}
+.filters-area ul {
+    margin-top:30px;
+                         
+    
+}
+.filters{
+    border: none !important;
+}
+
+    
+
+.input{
+    margin-left: 20px;
+}
+.more-info{
+    margin-left: 20px;
+}
+.filters-area{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+/* .filters-area{
+    margin-left: 20px;
+} */
+ .filters-area li{
+    display: inline;
+    margin: 10px;
+    border: 3px solid #DEEBFF;
+    border-radius: 20px;
+    padding: 9px 10px 9px 5px ;
+    
+} 
+
+ .fa-money-bill-wave , .fa-child , .fa-heart , .fa-dog{
+border:2px solid  #DEEBFF;
+padding:10px 10px;
+border-radius: 50%;
+position: relative;
+margin-left: -15px;
+color: #0065FC;
+background-color: #DEEBFF;
+} 
+#header p{
+    margin-left: 20px;
+}
+.fa-exclamation-circle{
+
+    color:#0065FC;                                          
+    border: 3px solid #DEEBFF;
+    border-radius: 50%;
+    padding: 4px;
+}
+.small-font-size{
+    font-size: smaller;
+}
+ #section-one{
+     width: auto;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    justify-content: space-around;
+}
+.blue-star{
+    color: #0065FC;
+}
+.stars{
+    margin: 3px 0 0 10px;
+}
+.card-desc{
+display: flex;
+flex-direction: column;
+margin-left: auto;
+}
+
+.gray-star{
+    color:gray;
+    
+}
+.container-one{
+    background-color: #DEEBFF;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    margin-left: 30px;
+    width: 80%;
+    height: 700px;
+    /* height: auto; */
+    /* width: auto; */
+}
+.container-one h3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0 0 20px;
+}
+.container-one-img {
+    margin: 10px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 3px 0px 0px gray;
+}
+.container-one-img figcaption{
+    font-size: 13px;
+}
+.container-one img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 240px;
+    height: 150px;
+    margin: 7px;
+    
+}
+.container-two{
+    background-color:#DEEBFF;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* width: 20%; */
+    height: 700px;
+    /* padding-left: 10px; */
+    
+}
+
+.section-two{
+    display: flex;
+    flex-direction: column;
+    /* width: 40%; */
+    /* height: 700px; */
+}
+.container-two-icon {
+    padding-left: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.fa-chart-line{
+    padding: 0 5px 0 180px;
+}
+
+.img-card img{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 305px;
+    height: 185px;
+    
+}
+.img-card{
+    border-radius: 15px;
+    background-color: white;
+    margin: 10px;
+    box-shadow: 0px 3px 0px 0px gray ;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#section-three{
+    
+    margin-left: 30px;   
+}
+#section-three h3{
+    margin-left: 20px;
+}
+#section-three figcaption{
+    margin-left: 20px;
+}
+.container-three{
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+}
+.container-three img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 260px;
+    height: 205px;
+    margin: 0px;
+    
+}
+.container-three-img-1 , .container-three-img-2 , .container-three-img-3 , .container-three-img-4 , .container-three-img-5 , .container-three-img-6 {
+    border: 2px solid #DEEBFF;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 3px 0px 0px gray ;
+}
+.container-three-column-img{
+    height: 430px !important;
+}
+.container-three-img-1 img , .container-three-img-4 img{
+    height: 360px ;
+    
+}
+.container-three-img-3 img , .container-three-img-6 img{
+    height: 100px;
+}
+.container-two-immges{
+    display: flex;
+    
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    margin-left: 10px;
+    
+    height: 80%;
+     
+}
+footer{
+   
+     background-color: #DEEBFF;
+    display: flex;
+    
+}
+footer li{
+    font-size: 10px;
+    margin: 5px;
+}
+    
+
+.about{
+    margin-left: 20px;
+    list-style-type: none;
+}
+.our-accommodation , .assistance {
+    margin-left: 150px;
+    list-style-type: none;
+} 
+
+    
+                        
+                                          /**** media query////////////// *****/
+                                         
+
+ /* @media screen and  (max-width:767px ){ 
+    
+    body{
+        margin: 0;
+        padding: 0;
+        width: 768px;
+    }
+    #header{
+        height: 600px;
+        background-color: aliceblue;
+        
+    }
+    .log{
+        border: 2px solid rgb(36, 35, 33);
+        
+        text-align: center;
+    }
+    
+                                      
+    .logo{
+        
+        height: 100px;
+        margin: 0 auto;  
+        width: auto;      
+        
+         }
+
+        .menu{
+            width: 100%;
+            float: none;
+            display: inline;
+            padding: 0;
+        }
+        .menu a:active{
+            color: blue;
+            border-bottom: 2px solid blue ;
+            border-top: none;              
+            
+        }
+        .menu li{
+            font-size: 20px;
+            border: 2px solid firebrick;
+            margin: 4px;
+                }
+        
+        .search-area {
+            width: 100%;
+            text-align:left;
+        }
+        .search-area h3{
+            font-size: 20px;
+            text-align: center; 
+            margin-top: 80px; 
+                                                
+        }
+        .search-area input{
+            width: 60%;
+        }
+        
+        .search-area h3{
+            padding-left: 5px;
+            text-align: left;
+        }
+        
+        .media ul{
+            margin-left: 40px;
+        }
+        .filters{
+            display: flex;
+            width: 100%;
+        }
+        .media li{
+           display: inline-block;
+           padding: 0px 2px 0px 2px;
+           margin: 10px 35px;
+           
+        }
+        .romantic{
+            position: relative;       
+            bottom: 140px;
+            left: 150px;
+        }
+        .pets{
+            position: relative;
+            right: 100px;;
+        }
+        
+        .fa-money-bill-wave , .fa-child , .fa-heart , .fa-dog{
+        border:2px solid  #DEEBFF;
+        padding:10px 10px;
+        border-radius: 50%;
+        position: relative;
+        margin-left: -12px;
+        color: #0065FC;
+        background-color: #DEEBFF;
+        padding: 12px 10px ;
+        }
+        .more-info {
+            margin-bottom:50px;
+            text-align: left;           
+        }
+        .filters-area{
+            margin: 40px;
+        }
+        .media li{
+            margin-left: -50px;
+        }
+        
+        .fa-search{
+            visibility: visible;
+            border-radius: 15px;
+            background-color: #0065FC;
+            padding: 11px 12px 13px 12px;
+            position: relative;
+            margin-left: -30px;
+        }
+        .search-text{
+            color:black;
+        }
+        .submit{
+           
+            display: none;
+        }
+        #section-one {
+            margin-top: 50px;
+            display: inline;
+        
+            width: 100%;
+        }
+        .container-one{
+            width: 60%;
+            border-radius: 0%;
+            
+            background-color:red;
+
+        }
+        .container-one img{
+            width: 280px;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            border-bottom-left-radius: 0%;
+            border-bottom-right-radius: 0%;
+        }
+        .section-two{
+            width: 100%;
+            margin-left: 10px;
+            margin-top: 20px;
+        }
+        .container-two-icon {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            align-content: space-between;
+            width: 100%;
+        }
+        .fa-chart-line{
+            padding: 0 5px 0 150px;
+        }
+        .img-card img{
+            
+            width: 110px;
+            height: 150px;    
+        }
+        .img-card figcaption{
+            font-size: 15px;
+        }
+        .container-three{
+            display: block;
+        }
+        .container-three img{
+            height: 100px;
+        }
+        footer{
+            display: block;  
+
+        }
+        .our-accommodation , .assistance {
+            margin-left: 20px;
+            list-style-type: none;
+        }
+        .small-font-size{
+            
+            display: none;
+        }
+         */
+        
+
+
+    
+    
